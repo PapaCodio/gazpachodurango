@@ -2,10 +2,14 @@ import Styled from 'styled-components'
 const maxWidth = 1000;
 
 export const StyledLanding = Styled.div`
-    max-width:${maxWidth}px;
-    width:100%;
+    display:flex;
+    img{
+        height:100%;
+    }
 
     .container{
+        width:100vw;
+        max-width:${maxWidth}px;
         background-color:#dba569;
         .cta-section{
             text-align:center;
