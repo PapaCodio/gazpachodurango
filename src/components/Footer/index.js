@@ -40,7 +40,7 @@ const Footer = (props) => {
 					{renderlinks()}
 				</div>
 				<div className="footer-company hide">
-					Proudly Created by <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
+					Proudly Created by:<br/> <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
 				</div>
 				<div className="footer-company">
 					Powered by <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
