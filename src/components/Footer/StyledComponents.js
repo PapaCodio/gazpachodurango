@@ -13,8 +13,8 @@ export const StyledFooter = styled.div`
 		grid-template-columns:auto;
 		grid-template-rows: auto auto auto;
 		grid-template-areas:'links'
-							'copyright'
-							'webcreator';
+							'company'
+							'creators';
 		justify-content:center;
 		align-content:center;
 		padding:1rem;
@@ -28,7 +28,7 @@ export const StyledFooter = styled.div`
 		@media(min-width:800px){
 			grid-template-rows:auto;
 			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-areas:'copyright links webcreator';
+			grid-template-areas:'creators links company';
 			font-size: 1.2vw;
 		}
 
@@ -57,7 +57,7 @@ export const StyledFooter = styled.div`
 			}
 		}
 		.footer-creators {
-			grid-area:copyright;
+			grid-area:creators;
 			align-self:center;
 			justify-self:center;
 			margin:16px 0px;
@@ -67,7 +67,7 @@ export const StyledFooter = styled.div`
 			}
 		}
 		.footer-company {
-			grid-area:webcreator;
+			grid-area:company;
 			align-self:center;
 			justify-self:center;
 			margin:16px 0px;
