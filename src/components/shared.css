@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    scrollbar-width: none
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+
+@font-face {
+    font-family: 'Bobby Rough';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/Bobby-Rough-Soft.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Regular'), url('/fonts/AvenirNextLTPro-Regular.woff') format('woff');
+    }
