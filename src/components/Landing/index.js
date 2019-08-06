@@ -13,7 +13,9 @@ const Landing = (props) => {
 						<Link className="menu btn" to={`/`}>Menu</Link>
 						<a className="directions btn" href={`https://www.google.com/maps/place/Gazpacho+Restaurant/@37.2683431,-107.8833192,17z/data=!3m1!4b1!4m5!3m4!1s0x873c02a297910e25:0x2749d75971f9d75f!8m2!3d37.2683431!4d-107.8811359`} target="_blank" rel="noopener noreferrer">Directions</a>
 					</div>
-					<div className="video-section" ></div>
+					<div className="video-section" >
+						<img src="/imgs/play_btn.png" alt="Play Button" />
+					</div>
 					<div className="section-one">
 						<div className="tagline">
 							Gazpacho's <br/> Restaurant <br/> Has The Best <br/> Green Chile In <br/> Durango

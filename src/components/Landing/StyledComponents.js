@@ -33,7 +33,21 @@ export const StyledLanding = Styled.div`
             height:calc(100vw/(16/9));
             max-height:${1000/(16/9)}px;
             background-color: rgba(0,0,0,.5);
-
+            position:relative;
+            img{
+                position:absolute;
+                top:0; right:0; bottom:0; left:0;
+                margin:auto auto;
+                height:20vw;
+                max-height:200px;
+                border-radius:50%
+                &:hover{
+                    box-shadow:0 0 5px 5px rgba(0,0,0,.75);
+                }
+            }
+            &:hover{
+                background-color: rgba(0,0,0,.65);
+            }
         }
 
         .section-one{
