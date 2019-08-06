@@ -39,10 +39,8 @@ const Footer = (props) => {
 				<div className="footer-links-list">
 					{renderlinks()}
 				</div>
-				<div className="footer-creators">
-					Copyright © 2019 <a className="footer-link" href='https://monica-louise-design.herokuapp.com/' rel="noopener noreferrer" target="_blank">Monica Louise Design, LLC</a>
-					<br/>
-					Website created by <a className="footer-link" href='https://willman.codes' rel="noopener noreferrer" target="_blank">Willman.Codes</a>
+				<div className="footer-company hide">
+					Powered by <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
 				</div>
 				<div className="footer-company">
 					Powered by <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
