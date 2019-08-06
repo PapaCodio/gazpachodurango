@@ -37,12 +37,13 @@ export const StyledLanding = Styled.div`
         }
 
         .section-one{
-            text-align:right;
             display:flex;
 
             img {
                 width:50%;
+                height:auto;
                 vertical-align:middle;
+                align-self: center
             }
             .tagline{
                 width:50%;
