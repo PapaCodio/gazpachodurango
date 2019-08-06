@@ -45,6 +45,7 @@ export const StyledLanding = Styled.div`
                 vertical-align:middle;
                 align-self: center
             }
+
             .tagline{
                 width:50%;
                 text-align:center;
