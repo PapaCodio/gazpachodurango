@@ -1,55 +1,68 @@
 import Styled from 'styled-components'
-const maxWidth = 1500;
-const maxWidthSection3 = 1000;
+const maxWidth = 1000;
 
 export const StyledLanding = Styled.div`
     max-width:${maxWidth}px;
     width:100%;
 
     .container{
-        .inquire-section{
+        background-color:#dba569;
+        .cta-section{
             text-align:center;
-            .inquire-button{
-                background-color: #786b7f;
+            width:100%;
+            display:flex;
+            justify-content:space-around;
+            .btn{
+                background-color: black;
                 padding:8px 16px;
-                margin:2rem;
+                margin:2rem 0;
                 font-family:'Avenir Next';
                 font-size:4.5vw;
                 border-radius:3px;
                 color:white;
                 display:inline-block;
                 text-decoration:none;
+                text-transform: uppercase;
                 @media(min-width:600px){
                     font-size:1.75rem;
                 }
             }
         }
+        .video-section{
+            width:100%;
+            height:calc(100vw/(16/9));
+            max-height:${1000/(16/9)}px;
+            background-color: rgba(0,0,0,.5);
+
+        }
+
         .section-one{
-            background-color:#c5b18c;
             text-align:right;
-            position:relative;
+            display:flex;
 
             img {
-                width:60%;
+                width:50%;
                 vertical-align:middle;
             }
             .tagline{
-                text-align:center;
-                position:absolute;
-                top:15vw;
-                left:.75rem;
-                font-family:'Bobby Jones';
-                font-size:5vw;
                 width:50%;
-                color:white;
+                text-align:center;
+                font-family:'Bobby Rough';
+                font-size:6.5vw;
+                color:black;
+                line-height:8vw;
+                padding:15vw 1rem;
+
                 @media(min-width:${maxWidth}px){
-                    top:${maxWidth*.15}px;
-                    font-size:${maxWidth*.05}px;
+                    padding:150px 1rem;
+                    font-size:${maxWidth*.065}px;
+                    line-height:80px;
                 }
             }
         }
+
         .section-two{
-            background-color:#786b7f;
+            background-color:#009346;
             position:relative;
             display:flex;
             justify-content:flex-end;
@@ -61,82 +74,73 @@ export const StyledLanding = Styled.div`
                 position: absolute;
                 top: 0; left: 0; bottom: 0; right: 0;
                 z-index:1000;
+
+                @media(min-width:${maxWidth}px){
+                    width:650px;
+                }
             }
             .tagline{
                 text-align:center;
                 font-family:'Avenir Next';
-                font-size:2vw;
+                font-size:2.4vw;
+                /* line-height:8vw; */
                 width:35%;
-                color:white;
+                color:black;
                 align-self:end;
-                padding: 3rem 0;
+                padding: 1rem 0;
                 @media(min-width:${maxWidth}px){
-                    font-size:${maxWidth*.02}px;
+                    font-size:${maxWidth*.024}px;
                 }
             }
         }
         .section-three{
-            background-color:#c5b18c;
-            .title{
-                text-align:center;
-                font-family:'Lance Sans';
-                font-size:7.5vw;
-                color:white;
-                padding-top: 19vw;
-                background-color:#c5b18c;
-                @media(min-width:600px){
-                    padding-top: 22vw;
-                }
-                @media(min-width:${maxWidthSection3}px){
-                    font-size:${(1000*.075)/16}rem;
-                    padding-top: 23vw;
-                }
-                @media(min-width:${maxWidth}px){
-                    padding-top: ${maxWidth * .23}px;
-                }
+            display:flex;
+            height:55vw;
+            padding-bottom:1rem;
+            @media(min-width:${maxWidth}px){
+                height:550px;
             }
-            .content-container{
-                max-width:${maxWidthSection3}px;
-                margin:auto auto;
-                position:relative;
+            .section{
                 display:flex;
-                flex-direction:column;
-                justify-content:center;
-                align-content:center;
-                img {
-                    width:75%;
-                    height:auto;
-                    margin:auto auto;
-                }
-                .tagline{
-                    text-align:center;
-                    font-family:'Bobby Jones';
-                    font-size:4vw;
-                    text-shadow: 2px 2px #821b47;
-                    color:white;
-                    position:absolute;
-                    @media(min-width:${maxWidthSection3}px){
-                        font-size:${maxWidthSection3 * .04}px;
-                    }
-
-                    &.left{
-                        left:2.5vw;
-                        top:10vw;
-                        @media(min-width:${maxWidthSection3}px){
-                            left:${maxWidthSection3 *.025}px;
-                            top:${maxWidthSection3 *.1}px;
-                        }
-                    }
-                    &.right{
-                        right:2.5vw;
-                        bottom:4vw;
-                        @media(min-width:${maxWidthSection3}px){
-                            right:${maxWidthSection3 * .025}px;
-                            bottom:${maxWidthSection3 * .04}px;
-                        }
-                    }
-                }
+                width:50%;
             }
+            .left{
+                align-items:flex-end;
+                justify-content:center;
+            }
+            .right{
+                flex-direction:column;
+                align-items:center;
+                .section-header{
+                    flex:1;
+                    font-family:'Bobby Rough';
+                    font-size:7vw;
+                    display:flex;
+                    align-items:flex-end;
+                    @media(min-width:${maxWidth}px){
+                        font-size:70px;
+                    }
+                }
+                img{
+                    flex:1;
+                }
+
+            }
+            img{
+                width:80%;
+            }
+        }
+        .section-four{
+            img{
+                width:100%;
+            }
+        }
+        .section-five{
+            font-family:'Bobby Rough';
+            text-transform:uppercase;
+            padding:2rem;
+            text-align:center;
+            font-size:1.25rem;
         }
     }
 `

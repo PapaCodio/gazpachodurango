@@ -1,11 +1,14 @@
 import styled from 'styled-components';
-
+const maxWidth = '1000'
 export const StyledFooter = styled.div`
+	width:100%;
+	max-width:${maxWidth}px;
 	.footer-menu {
+		text-align:center;
 		z-index: 1050;
 		top: 0;
 		width: 100%;
-		border-top: 1.5rem solid  #c197af;
+		border-top: 1.5rem solid  #e21e26;
 		display:grid;
 		grid-template-columns:auto;
 		grid-template-rows: auto auto auto;
@@ -26,7 +29,11 @@ export const StyledFooter = styled.div`
 			grid-template-rows:auto;
 			grid-template-columns: 1fr 1fr 1fr;
 			grid-template-areas:'copyright links webcreator';
-			font-size: 1vw;
+			font-size: 1.2vw;
+		}
+
+		@media(min-width:${maxWidth}px){
+			font-size:.75rem
 		}
 
 		.footer-links-list{

@@ -11,14 +11,14 @@ class App extends React.Component {
 	render() {
 		return (
 			<Router history={history}>
-				<TopNav imgSrc="/imgs/gazpacho.png" />
-				<div style={{display:'flex', justifyContent:'center', width:'100%'}}>
+				<div style={{display:'flex', flexDirection:'column', alignItems:'center', width:'100%'}}>
+					<TopNav imgSrc="/imgs/gazpacho.png" />
 					<Switch>
 						<Route path="/" exact component={Landing} />
 						<Route path="/" component={Landing} />
 					</Switch>
+					<Footer imgSrc="/img/logo_square.png" />
 				</div>
-				<Footer imgSrc="/img/logo_square.png" />
 			</Router>
 		);
 	}

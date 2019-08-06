@@ -45,7 +45,7 @@ const Footer = (props) => {
 					Website created by <a className="footer-link" href='https://willman.codes' rel="noopener noreferrer" target="_blank">Willman.Codes</a>
 				</div>
 				<div className="footer-company">
-					<a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
+					Powered by <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
 				</div>
 			</div>
 		</StyledFooter>
