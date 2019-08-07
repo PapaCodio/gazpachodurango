@@ -11,8 +11,9 @@ export const StyledFooter = styled.div`
 		border-top: 1.5rem solid  #e21e26;
 		display:grid;
 		grid-template-columns:auto;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: auto auto;
 		grid-template-areas:'links'
+							'companyhide'
 							'company';
 		justify-content:center;
 		align-content:center;
