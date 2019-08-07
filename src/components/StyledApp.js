@@ -11,16 +11,25 @@ export const StyledApp = Styled.div`
     overflow-y:hidden;
     position:fixed;
 
-    .img {
+    .img-container {
         flex:1
         height:64%;
         width:100%;
         margin-right: 8px;
+        position:relative;
+
         &.flipped{
             margin-left: 8px;
-            }
+        }
         img{
             height:100%;
+            position:absolute;
+            margin-left:auto;
+            left:0;right:0;
+            &.flipped{
+                margin-left:0;
+                margin-right:auto;
+            }
         }
     }
     .app{

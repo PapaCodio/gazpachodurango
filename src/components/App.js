@@ -14,7 +14,7 @@ class App extends React.Component {
 		return (
 			<Router history={history}>
 				<StyledApp >
-					<div className="img"><img src='/imgs/logo_trimmed.png' alt='Logo'/></div>
+					<div className="img-container flipped"><img className="img" src='/imgs/logo_trimmed.png' alt='Logo'/></div>
 					<div className="app">
 						<TopNav imgSrc="/imgs/gazpacho.png" />
 						<Switch>
@@ -23,7 +23,7 @@ class App extends React.Component {
 						</Switch>
 						<Footer />
 					</div>
-					<div className="img flipped"><img src='/imgs/logo_trimmed_flipped.png' alt='Logo'/></div>
+					<div className="img-container flipped"><img className="img flipped" src='/imgs/logo_trimmed_flipped.png' alt='Logo'/></div>
 				</StyledApp>
 			</Router>
 		);
