@@ -10,7 +10,12 @@ export const StyledApp = Styled.div`
     overflow-x:hidden;
     overflow-y:hidden;
     position:fixed;
-
+    .img {
+        height:80%;
+        img{
+            height:80%;
+        }
+    }
     .app{
         display:flex;
         flex-direction:column;

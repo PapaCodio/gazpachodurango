@@ -2,11 +2,6 @@ import Styled from 'styled-components'
 const maxWidth = 1000;
 
 export const StyledLanding = Styled.div`
-    display:flex;
-    img{
-        height:100%;
-    }
-
     .container{
         width:100vw;
         max-width:${maxWidth}px;
