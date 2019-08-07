@@ -23,7 +23,7 @@ class App extends React.Component {
 						</Switch>
 						<Footer />
 					</div>
-					<div className="img"><img src='/imgs/logo_trimmed_flipped.png' alt='Logo'/></div>
+					<div className="img flipped"><img src='/imgs/logo_trimmed_flipped.png' alt='Logo'/></div>
 				</StyledApp>
 			</Router>
 		);

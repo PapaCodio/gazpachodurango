@@ -5,17 +5,22 @@ export const StyledApp = Styled.div`
     display:flex;
     align-items:center;
     justify-content:center;
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:100vh;
     overflow-x:hidden;
     overflow-y:hidden;
     position:fixed;
 
     .img {
-        height:80%;
+        flex:1
+        height:64%;
+        width:100%;
+        margin-right: 8px;
+        &.flipped{
+            margin-left: 8px;
+            }
         img{
-            height:80%;
-            margin: 0 8px;
+            height:100%;
         }
     }
     .app{
