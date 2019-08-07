@@ -1,12 +1,12 @@
 import Styled from 'styled-components'
-const maxWidth = 1000;
+// const maxWidth = 1000;
 
 export const StyledApp = Styled.div`
     display:flex;
     align-items:center;
     justify-content:center;
     width:100vw;
-    height:100vh;
+    height:100%;
     overflow-x:hidden;
     overflow-y:hidden;
     position:fixed;
