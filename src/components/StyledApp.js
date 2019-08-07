@@ -15,6 +15,7 @@ export const StyledApp = Styled.div`
         height:80%;
         img{
             height:80%;
+            margin: 0 8px;
         }
     }
     .app{
