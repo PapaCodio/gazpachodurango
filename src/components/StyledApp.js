@@ -10,6 +10,7 @@ export const StyledApp = Styled.div`
     overflow-x:hidden;
     overflow-y:hidden;
     position:fixed;
+
     .img {
         height:80%;
         img{
@@ -23,5 +24,6 @@ export const StyledApp = Styled.div`
         height:100%;
         overflow-y:scroll;
         flex-shrink:0;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,.5);
     }
 `
