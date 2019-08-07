@@ -39,7 +39,7 @@ const Footer = (props) => {
 				<div className="footer-links-list">
 					{renderlinks()}
 				</div>
-				<div className="footer-company hide">
+				<div className="footer-company created">
 					Proudly Created by:<br/> <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
 				</div>
 				<div className="footer-company">

@@ -13,7 +13,7 @@ export const StyledFooter = styled.div`
 		grid-template-columns:auto;
 		grid-template-rows: auto auto;
 		grid-template-areas:'links'
-							'companyhide'
+							'created'
 							'company';
 		justify-content:center;
 		align-content:center;
@@ -28,7 +28,7 @@ export const StyledFooter = styled.div`
 		@media(min-width:800px){
 			grid-template-rows:auto;
 			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-areas:'companyhide links company';
+			grid-template-areas:'created links company';
 			font-size: 1.2vw;
 		}
 
@@ -61,21 +61,13 @@ export const StyledFooter = styled.div`
 			grid-area:company;
 			align-self:center;
 			justify-self:center;
-			margin:16px 0px;
 			a{
 				color:inherit;
 				text-decoration:none;
 			}
 		}
-		.hide {
-			grid-area:companyhide;
-			align-self:center;
-			justify-self:center;
-			margin:16px 0px;
-			a{
-				color:inherit;
-				text-decoration:none;
-			}
+		.created {
+			grid-area:created;
 		}
 	}
 `;
