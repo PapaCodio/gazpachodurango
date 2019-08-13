@@ -15,7 +15,6 @@ const Chile = (props) => {
 						<Link className="menu btn" to={`/`}>Menu</Link>
 					</div>
 					<div className="section-one">
-						<div className="overlay"></div>
 						<img src="/imgs/fajitas.jpg" alt="Gazpacho Tamales"/>
 						<div className="section-content" >
 							Gazpacho New Mexican Cooking y Cantina opened in September of 1991.  This restaurant was the vision of restaurateur James Arias, a son of New Mexico and a true chilehead.  After decades in the restaurant business, Jim wanted to get back to his roots; to the food of his childhood.  Jim and his long time business partner, Bill “Beatle” Abshagen, put together a plan to bring authentic New Mexican cooking to Durango (and chile roasting to Durango, but that is another story)!  Durangoans loved the food, the ambiance, and the character of the new restaurant. Today we hold true to Big Jim’s vision and love of New Mexican chile!

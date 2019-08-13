@@ -1,5 +1,5 @@
 import Styled from 'styled-components'
-const maxWidth = 1000;
+// const maxWidth = 1000;
 
 export const StyledChili = Styled.div`
     .container{
@@ -51,7 +51,6 @@ export const StyledChili = Styled.div`
             padding:2rem;
             text-align:center;
             p{
-
                 font-size:1.25rem;
             }
         }
