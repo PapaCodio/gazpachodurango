@@ -13,8 +13,8 @@ export const StyledFooter = styled.div`
 		grid-template-columns:auto;
 		grid-template-rows: auto auto;
 		grid-template-areas:'links'
-							'created'
-							'company';
+							'company'
+							'copyright';
 		justify-content:center;
 		align-content:center;
 		padding:1rem;
@@ -28,7 +28,7 @@ export const StyledFooter = styled.div`
 		@media(min-width:800px){
 			grid-template-rows:auto;
 			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-areas:'created links company';
+			grid-template-areas:'company links copyright';
 			font-size: 1.2vw;
 		}
 
@@ -57,8 +57,8 @@ export const StyledFooter = styled.div`
 			}
 		}
 
-		.footer-company {
-			grid-area:company;
+		.footer-copyright {
+			grid-area:copyright;
 			align-self:center;
 			justify-self:center;
 			a{
@@ -66,8 +66,10 @@ export const StyledFooter = styled.div`
 				text-decoration:none;
 			}
 		}
-		.created {
-			grid-area:created;
+		.footer-company {
+			grid-area:company;
+			align-self:center;
+			justify-self:center;
 		}
 	}
 `;

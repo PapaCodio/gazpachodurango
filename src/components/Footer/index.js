@@ -39,11 +39,11 @@ const Footer = (props) => {
 				<div className="footer-links-list">
 					{renderlinks()}
 				</div>
-				<div className="footer-company created">
+				<div className="footer-company">
 					Proudly Created by:<br/> <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
 				</div>
-				<div className="footer-company">
-					Powered by <a className="footer-link" href='https://mountainmotionmedia.com/' rel="noopener noreferrer" target="_blank">Mountain Motion Media LLC.</a>
+				<div className="footer-copyright">
+					Copyright 2019 Gazpacho Durango
 				</div>
 			</div>
 		</StyledFooter>
