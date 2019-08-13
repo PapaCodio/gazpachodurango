@@ -42,6 +42,9 @@ export const StyledChili = Styled.div`
                 font-family:'Bobby Rough';
                 color: white;
                 letter-spacing:1vw;
+                @media(min-width:${maxWidth}px){
+                    font-size:120px;
+                }
             }
         }
         .section-two{

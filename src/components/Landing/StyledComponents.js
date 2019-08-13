@@ -73,9 +73,9 @@ export const StyledLanding = Styled.div`
                 padding:10vw 16px 0 16px;
 
                 @media(min-width:${maxWidth}px){
-                    padding:150px 1rem;
+                    padding:100px 1rem;
                     font-size:${maxWidth*.04}px;
-                    line-height:40px;
+                    line-height:50px;
                 }
             }
         }
@@ -146,6 +146,7 @@ export const StyledLanding = Styled.div`
                     font-size:3vw;
                     @media(min-width:${maxWidth}px){
                         font-size:30px;
+                        padding: 0 30px;
                     }
                     h2{
                         margin-bottom:0;
