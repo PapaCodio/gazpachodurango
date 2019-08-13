@@ -70,6 +70,10 @@ export const StyledFooter = styled.div`
 			grid-area:company;
 			align-self:center;
 			justify-self:center;
+			a{
+				color:inherit;
+				text-decoration:none;
+			}
 		}
 	}
 `;

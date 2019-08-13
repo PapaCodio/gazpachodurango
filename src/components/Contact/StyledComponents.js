@@ -46,10 +46,6 @@ export const StyledChili = Styled.div`
                 width:100%;
                 display:block;
             }
-            padding-bottom:7vw;
-            @media(min-width:${maxWidth}px){
-                padding-bottom:70px;
-            }
         }
         .section-three{
             padding:2rem;

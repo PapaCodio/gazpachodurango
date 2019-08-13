@@ -113,10 +113,10 @@ export const StyledLanding = Styled.div`
         }
         .section-three{
             display:flex;
-            height:55vw;
+            min-height:55vw;
             padding-bottom:1rem;
             @media(min-width:${maxWidth}px){
-                height:550px;
+                min-height:550px;
             }
             .section{
                 display:flex;
