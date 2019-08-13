@@ -5,7 +5,7 @@ export const StyledApp = Styled.div`
     display:flex;
     align-items:center;
     justify-content:center;
-    width:100vw;
+    /*width:100vw;
     height:100%;
     overflow-x:hidden;
     overflow-y:hidden;
@@ -31,14 +31,17 @@ export const StyledApp = Styled.div`
                 margin-right:auto;
             }
         }
-    }
+    } */
     .app{
+
+        max-width:1000px;
         display:flex;
         flex-direction:column;
         align-items:center;
-        height:100%;
-        overflow-y:scroll;
-        flex-shrink:0;
         box-shadow: 0 0 1vw 1vw rgba(0,0,0,.5);
+        /* width:100%; */
+        /* height:100%; */
+        /* overflow-y:scroll; */
+        /* flex-shrink:0; */
     }
 `

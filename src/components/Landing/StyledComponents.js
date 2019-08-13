@@ -6,6 +6,7 @@ export const StyledLanding = Styled.div`
         width:100vw;
         max-width:${maxWidth}px;
         background-color:#dba569;
+
         .cta-section{
             text-align:center;
             width:100%;
