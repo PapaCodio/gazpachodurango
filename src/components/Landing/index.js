@@ -36,9 +36,10 @@ const Landing = (props) => {
 						<div className="right section">
 							<div className="section-header">Specials</div>
 							<div className="section-content">
-								<h2>TACO TUESDAY!!!</h2>
-								<p className="no-top-margin">We carefully prepare our Carne Asada to perfection and serve it up with $2 Tecates!</p>
-								<p>Our own, hand-picked barrels of tequila from Casa Herradura for you to enjoy in a signature margarita, by itself, or in a cocktail of your choice!</p>
+								<ul>
+									<li className="no-top-margin">TACO TUESDAY!!! We carefully prepare our Carne Asada to perfection and serve it up with $2 Tecates!</li>
+									<li>Our own, hand-picked barrels of tequila from Casa Herradura for you to enjoy in a signature margarita, by itself, or in a cocktail of your choice!</li>
+								</ul>
 							</div>
 
 						</div>

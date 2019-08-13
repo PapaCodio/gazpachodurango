@@ -1,5 +1,5 @@
 import Styled from 'styled-components'
-// const maxWidth = 1000;
+const maxWidth = 1000;
 
 export const StyledChili = Styled.div`
     .container{
@@ -30,6 +30,19 @@ export const StyledChili = Styled.div`
 
         .section-one{
             background-color: rgba(0,0,0,.25);
+            position:relative;
+            .heading{
+                position:absolute;
+                top:0; left:0; right:0;
+                font-size:12vw;
+                text-align:center;
+                font-family:'Bobby Rough';
+                color: white;
+                letter-spacing:1vw;
+                @media(min-width:${maxWidth}px){
+                    font-size:120px;
+                }
+            }
             img{
                 width:100%;
                 display:block;

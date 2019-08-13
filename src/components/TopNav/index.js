@@ -6,7 +6,7 @@ const TopNav = (props) => {
 
 	const renderlinks = () => {
 		const links = {
-			'The Chile':'/thechili',
+			'The Chile':'/thechile',
 			'Contact':'/contact',
 		}
 		return Object.keys(links).map(link=>{

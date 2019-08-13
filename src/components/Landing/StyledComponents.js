@@ -55,6 +55,7 @@ export const StyledLanding = Styled.div`
 
         .section-one{
             display:flex;
+            padding-top:5vw;
 
             img {
                 width:50%;
@@ -70,7 +71,7 @@ export const StyledLanding = Styled.div`
                 font-size:4vw;
                 color:black;
                 line-height:5vw;
-                padding:10vw 16px 0 16px;
+                padding:6vw 16px 0 16px;
 
                 @media(min-width:${maxWidth}px){
                     padding:100px 1rem;
@@ -135,6 +136,7 @@ export const StyledLanding = Styled.div`
                     font-size:7vw;
                     display:flex;
                     align-items:flex-end;
+                    padding-left:40px;
                     @media(min-width:${maxWidth}px){
                         font-size:70px;
                     }
@@ -143,16 +145,10 @@ export const StyledLanding = Styled.div`
                     flex:1;
                     text-align:center;
                     padding: 0 3vw;
-                    font-size:3vw;
+                    font-size:2.5vw;
                     @media(min-width:${maxWidth}px){
                         font-size:30px;
                         padding: 0 30px;
-                    }
-                    h2{
-                        margin-bottom:0;
-                    }
-                    p{
-                        margin:0 0;
                     }
                 }
 
@@ -171,7 +167,7 @@ export const StyledLanding = Styled.div`
             text-transform:uppercase;
             padding:2rem;
             text-align:center;
-            font-size:1.25rem;
+            font-size:2rem;
         }
     }
 `
