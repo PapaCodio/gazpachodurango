@@ -15,13 +15,13 @@ export const StyledLanding = Styled.div`
                 background-color: black;
                 padding:8px 16px;
                 margin:2rem 0;
-                font-family:'Avenir Next';
                 font-size:4.5vw;
                 border-radius:3px;
                 color:white;
                 display:inline-block;
                 text-decoration:none;
                 text-transform: uppercase;
+                /* box-shadow: 0px 0px 3px 3px rgba(0,0,0,.5); */
                 @media(min-width:600px){
                     font-size:1.75rem;
                 }
@@ -29,11 +29,15 @@ export const StyledLanding = Styled.div`
         }
         .video-section{
             width:100%;
-            height:calc(100vw/(16/9));
-            max-height:${1000/(16/9)}px;
+            /* height:calc(100vw/(16/9));
+            max-height:${1000/(16/9)}px; */
             background-color: rgba(0,0,0,.5);
             position:relative;
             img{
+                width:100%;
+                display:block;
+            }
+            /* img{
                 position:absolute;
                 top:0; right:0; bottom:0; left:0;
                 margin:auto auto;
@@ -43,7 +47,7 @@ export const StyledLanding = Styled.div`
                 &:hover{
                     box-shadow:0 0 5px 5px rgba(0,0,0,.75);
                 }
-            }
+            } */
             &:hover{
                 background-color: rgba(0,0,0,.65);
             }
@@ -63,15 +67,15 @@ export const StyledLanding = Styled.div`
                 width:50%;
                 text-align:center;
                 font-family:'Bobby Rough';
-                font-size:6.5vw;
+                font-size:4vw;
                 color:black;
-                line-height:8vw;
-                padding:15vw 1rem;
+                line-height:5vw;
+                padding:10vw 16px 0 16px;
 
                 @media(min-width:${maxWidth}px){
                     padding:150px 1rem;
-                    font-size:${maxWidth*.065}px;
-                    line-height:80px;
+                    font-size:${maxWidth*.04}px;
+                    line-height:40px;
                 }
             }
         }
@@ -96,7 +100,6 @@ export const StyledLanding = Styled.div`
             }
             .tagline{
                 text-align:center;
-                font-family:'Avenir Next';
                 font-size:2.4vw;
                 /* line-height:8vw; */
                 width:35%;
@@ -136,8 +139,20 @@ export const StyledLanding = Styled.div`
                         font-size:70px;
                     }
                 }
-                img{
+                .section-content{
                     flex:1;
+                    text-align:center;
+                    padding: 0 3vw;
+                    font-size:3vw;
+                    @media(min-width:${maxWidth}px){
+                        font-size:30px;
+                    }
+                    h2{
+                        margin-bottom:0;
+                    }
+                    p{
+                        margin:0 0;
+                    }
                 }
 
             }

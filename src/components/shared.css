@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    scrollbar-width: none
+    scrollbar-width: none;
+    font-family:'Avenir Next';
 }
 ::-webkit-scrollbar {
     display: none;

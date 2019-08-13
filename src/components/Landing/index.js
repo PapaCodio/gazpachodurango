@@ -14,18 +14,19 @@ const Landing = (props) => {
 						<Link className="menu btn" to={`/`}>Menu</Link>
 					</div>
 					<div className="video-section" >
-						<img src="/imgs/play_btn.png" alt="Play Button" />
+						<img src="/imgs/tres_gazpachos.jpg" alt="Tres Gazpachos" />
+						{/* <img src="/imgs/play_btn.png" alt="Play Button" /> */}
 					</div>
 					<div className="section-one">
 						<div className="tagline">
-							Gazpacho's <br/> Restaurant <br/> Has The Best <br/> Green Chile In <br/> Durango
+							Traditional <br/> northern New Mexican <br/> cooking featuring <br/> hot red and green chile <br/> specially grown for <br/> Gazpacho New Mexican <br/> Cooking y Cantina <br/> located in <br/> Durango, Colorado!
 						</div>
 						<img src="/imgs/gazpacho_sopapilla.jpg" alt="Gazpacho Sopapilla"/>
 					</div>
 					<div className="section-two">
 						<img src="/imgs/gazpacho_margaritas_square.png" alt="coin"/>
 						<div className="tagline">
-							Personalized content matching <br/> descriptions of green Chili <br/> and stuff that has to do with <br/> yummy food and margaritas <br/> and all that jazz. Tacos and <br/> stuff about tacos.
+							Our business philosophy here <br/> at Gazpacho is simple: <br/> Use the freshest & best <br/> ingredients we can, <br/> and stay true to the <br/> traditional New Mexican <br/> red & green chile.
 						</div>
 					</div>
 					<div className="section-three">
@@ -34,14 +35,19 @@ const Landing = (props) => {
 						</div>
 						<div className="right section">
 							<div className="section-header">Specials</div>
-							<img className="img" src="/imgs/blank.png" alt="Gazpacho Logo Banner"/>
+							<div className="section-content">
+								<h2>TACO TUESDAY!!!</h2>
+								<p className="no-top-margin">We carefully prepare our Carne Asada to perfection and serve it up with $2 Tecates!</p>
+								<p>Our own, hand-picked barrels of tequila from Casa Herradura for you to enjoy in a signature margarita, by itself, or in a cocktail of your choice!</p>
+							</div>
+
 						</div>
 					</div>
 					<div className="section-four">
 						<img className="gazpacho_tacos" src="/imgs/gazpacho_tacos.jpg" alt="Gazpacho Tacos"/>
 					</div>
 					<div className="section-five">
-						Gazpacho's Restaurant has the best green chile in durango. include the story here with details refined and the story about where they get the green chile and how they hand bick it and select it and roast it and make rice and beans taste so good mmmm, yummy.
+						Established in 1991, Gazpacho is a family run business with the same values from it’s beginning - bringing fabulous authentic New Mexican cooking to Durango, Colorado. A locals favorite and a treat for visitors, Gazpacho brings great food, atmosphere, and community to every patron. We welcome everyone from all walks of life and try to reflect this in the cuisine we serve - read our story.
 					</div>
 				</div>
 			 </StyledLanding>

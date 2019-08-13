@@ -6,6 +6,8 @@ import history from '../history';
 import TopNav from './TopNav';
 import Footer from './Footer';
 import Landing from './Landing';
+import Chile from './Chile';
+import Contact from './Contact';
 
 import { StyledApp } from './StyledApp';
 
@@ -20,7 +22,9 @@ class App extends React.Component {
 						<TopNav imgSrc="/imgs/gazpacho.png" />
 						<Switch>
 							<Route path="/" exact component={Landing} />
-							<Route path="/" component={Landing} />
+							<Route path="/" exact component={Landing} />
+							<Route path="/thechili" exact component={Chile} />
+							<Route path="/contact" exact component={Contact} />
 						</Switch>
 						<Footer />
 					</div>

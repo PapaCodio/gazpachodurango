@@ -6,7 +6,8 @@ const TopNav = (props) => {
 
 	const renderlinks = () => {
 		const links = {
-			'The Chili':'/',
+			'The Chile':'/thechili',
+			'Contact':'/contact',
 		}
 		return Object.keys(links).map(link=>{
 			return (
@@ -33,11 +34,6 @@ const TopNav = (props) => {
 				</div>
 				<div className="nav-links-list">
 					{renderlinks()}
-					<div className="nav-links-item" >
-						<a className="nav-link" href="mailto:info@gazpachodurango.com">
-							Contact
-						</a>
-					</div>
 				</div>
 			</div>
 		</StyledTopNav>
