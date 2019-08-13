@@ -3,13 +3,12 @@ const maxWidth = 1000;
 
 export const StyledLanding = Styled.div`
     .container{
-        width:100vw;
-        max-width:${maxWidth}px;
+        width:100%;
         background-color:#dba569;
 
         .cta-section{
             text-align:center;
-            width:100%;
+
             display:flex;
             justify-content:space-around;
             .btn{
